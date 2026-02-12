@@ -1,7 +1,35 @@
+# Virtual environments (kept locally, ignored in git)
 env/
-myenv/
+venv/
 .venv/
+myenv/
+
+# Python cache / compiled files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
+
+# Test / coverage
+.pytest_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Environment & secrets
 .env
 voice_assistant/.env
+
+# IDE / editor
+.vscode/
+.idea/
+*.code-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
